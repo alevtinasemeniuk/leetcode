@@ -15,7 +15,7 @@ public class IntersectionOfTwoArraysII {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
         for(int num : nums2) {
-            if (map.get(num) > 0) {
+            if (map.getOrDefault(num, 0) > 0) {
                 list.add(num);
                 map.replace(num, map.get(num) - 1);
             }
