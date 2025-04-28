@@ -1,8 +1,6 @@
 package top_interview_questions.easy.array;
 
-import java.util.Arrays;
-
-public class BeatTimeToBuyAndSellStockII {
+public class BestTimeToBuyAndSellStockII {
     /*
     2. Best Time to Buy and Sell Stock II
 
