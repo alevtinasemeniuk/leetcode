@@ -1,4 +1,4 @@
-package top_interview_questions.easy.array;
+package top_interview_questions.easy.dynamic_programming;
 
 public class HouseRobber {
 
